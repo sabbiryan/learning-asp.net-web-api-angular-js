@@ -1,0 +1,20 @@
+D:\CSE\Repository\DotNet\Youtube_FoyzulKarim\CRUD Operation using Entity Framework\SchoolManagement\Source\App\SchoolManagement\SchoolManagement.Model\bin\Debug\SchoolManagement.Model.dll.config
+D:\CSE\Repository\DotNet\Youtube_FoyzulKarim\CRUD Operation using Entity Framework\SchoolManagement\Source\App\SchoolManagement\SchoolManagement.Model\bin\Debug\SchoolManagement.Model.dll
+D:\CSE\Repository\DotNet\Youtube_FoyzulKarim\CRUD Operation using Entity Framework\SchoolManagement\Source\App\SchoolManagement\SchoolManagement.Model\bin\Debug\SchoolManagement.Model.pdb
+D:\CSE\Repository\DotNet\Youtube_FoyzulKarim\CRUD Operation using Entity Framework\SchoolManagement\Source\App\SchoolManagement\SchoolManagement.Model\bin\Debug\EntityFramework.dll
+D:\CSE\Repository\DotNet\Youtube_FoyzulKarim\CRUD Operation using Entity Framework\SchoolManagement\Source\App\SchoolManagement\SchoolManagement.Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\CSE\Repository\DotNet\Youtube_FoyzulKarim\CRUD Operation using Entity Framework\SchoolManagement\Source\App\SchoolManagement\SchoolManagement.Model\bin\Debug\EntityFramework.xml
+D:\CSE\Repository\DotNet\Youtube_FoyzulKarim\CRUD Operation using Entity Framework\SchoolManagement\Source\App\SchoolManagement\SchoolManagement.Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\CSE\Repository\DotNet\Youtube_FoyzulKarim\CRUD Operation using Entity Framework\SchoolManagement\Source\App\SchoolManagement\SchoolManagement.Model\obj\Debug\SchoolManagement.Model.csprojResolveAssemblyReference.cache
+D:\CSE\Repository\DotNet\Youtube_FoyzulKarim\CRUD Operation using Entity Framework\SchoolManagement\Source\App\SchoolManagement\SchoolManagement.Model\obj\Debug\SchoolManagement.Model.dll
+D:\CSE\Repository\DotNet\Youtube_FoyzulKarim\CRUD Operation using Entity Framework\SchoolManagement\Source\App\SchoolManagement\SchoolManagement.Model\obj\Debug\SchoolManagement.Model.pdb
+D:\CSE\Repository\DotNet\Youtube~Foyzul\KickStartAngularjsWithWebAPI\SchoolManagement\Source\App\SchoolManagement\SchoolManagement.Model\bin\Debug\SchoolManagement.Model.dll.config
+D:\CSE\Repository\DotNet\Youtube~Foyzul\KickStartAngularjsWithWebAPI\SchoolManagement\Source\App\SchoolManagement\SchoolManagement.Model\bin\Debug\SchoolManagement.Model.dll
+D:\CSE\Repository\DotNet\Youtube~Foyzul\KickStartAngularjsWithWebAPI\SchoolManagement\Source\App\SchoolManagement\SchoolManagement.Model\bin\Debug\SchoolManagement.Model.pdb
+D:\CSE\Repository\DotNet\Youtube~Foyzul\KickStartAngularjsWithWebAPI\SchoolManagement\Source\App\SchoolManagement\SchoolManagement.Model\bin\Debug\EntityFramework.dll
+D:\CSE\Repository\DotNet\Youtube~Foyzul\KickStartAngularjsWithWebAPI\SchoolManagement\Source\App\SchoolManagement\SchoolManagement.Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\CSE\Repository\DotNet\Youtube~Foyzul\KickStartAngularjsWithWebAPI\SchoolManagement\Source\App\SchoolManagement\SchoolManagement.Model\bin\Debug\EntityFramework.xml
+D:\CSE\Repository\DotNet\Youtube~Foyzul\KickStartAngularjsWithWebAPI\SchoolManagement\Source\App\SchoolManagement\SchoolManagement.Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\CSE\Repository\DotNet\Youtube~Foyzul\KickStartAngularjsWithWebAPI\SchoolManagement\Source\App\SchoolManagement\SchoolManagement.Model\obj\Debug\SchoolManagement.Model.csprojResolveAssemblyReference.cache
+D:\CSE\Repository\DotNet\Youtube~Foyzul\KickStartAngularjsWithWebAPI\SchoolManagement\Source\App\SchoolManagement\SchoolManagement.Model\obj\Debug\SchoolManagement.Model.dll
+D:\CSE\Repository\DotNet\Youtube~Foyzul\KickStartAngularjsWithWebAPI\SchoolManagement\Source\App\SchoolManagement\SchoolManagement.Model\obj\Debug\SchoolManagement.Model.pdb
