@@ -4,3 +4,9 @@ D:\CSE\Repository\DotNet\Youtube~Foyzul\KickStartAngularjsWithWebAPI\SchoolManag
 D:\CSE\Repository\DotNet\Youtube~Foyzul\KickStartAngularjsWithWebAPI\SchoolManagement\Source\App\SchoolManagement\SchoolManagement.WebClient\obj\Debug\SchoolManagement.WebClient.csprojResolveAssemblyReference.cache
 D:\CSE\Repository\DotNet\Youtube~Foyzul\KickStartAngularjsWithWebAPI\SchoolManagement\Source\App\SchoolManagement\SchoolManagement.WebClient\obj\Debug\SchoolManagement.WebClient.dll
 D:\CSE\Repository\DotNet\Youtube~Foyzul\KickStartAngularjsWithWebAPI\SchoolManagement\Source\App\SchoolManagement\SchoolManagement.WebClient\obj\Debug\SchoolManagement.WebClient.pdb
+D:\CSE\Repository\DotNet\Youtube~Foyzul\KickStartAngularjsWithWebAPI\Basic-CRUD-with-WebAPI-and-Angular\Source\App\SchoolManagement\SchoolManagement.WebClient\bin\SchoolManagement.WebClient.dll.config
+D:\CSE\Repository\DotNet\Youtube~Foyzul\KickStartAngularjsWithWebAPI\Basic-CRUD-with-WebAPI-and-Angular\Source\App\SchoolManagement\SchoolManagement.WebClient\bin\SchoolManagement.WebClient.dll
+D:\CSE\Repository\DotNet\Youtube~Foyzul\KickStartAngularjsWithWebAPI\Basic-CRUD-with-WebAPI-and-Angular\Source\App\SchoolManagement\SchoolManagement.WebClient\bin\SchoolManagement.WebClient.pdb
+D:\CSE\Repository\DotNet\Youtube~Foyzul\KickStartAngularjsWithWebAPI\Basic-CRUD-with-WebAPI-and-Angular\Source\App\SchoolManagement\SchoolManagement.WebClient\obj\Debug\SchoolManagement.WebClient.csprojResolveAssemblyReference.cache
+D:\CSE\Repository\DotNet\Youtube~Foyzul\KickStartAngularjsWithWebAPI\Basic-CRUD-with-WebAPI-and-Angular\Source\App\SchoolManagement\SchoolManagement.WebClient\obj\Debug\SchoolManagement.WebClient.dll
+D:\CSE\Repository\DotNet\Youtube~Foyzul\KickStartAngularjsWithWebAPI\Basic-CRUD-with-WebAPI-and-Angular\Source\App\SchoolManagement\SchoolManagement.WebClient\obj\Debug\SchoolManagement.WebClient.pdb
