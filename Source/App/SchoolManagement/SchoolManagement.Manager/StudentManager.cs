@@ -10,18 +10,19 @@ namespace SchoolManagement.Manager
 {
     public class StudentManager
     {
-        public void Add(Student student)
+        public ResponseModel Save(Student student)
         {
             using (SchoolManagementDBEntities db = new SchoolManagementDBEntities())
             {
                 DbSet<Student> students = db.Students;
                 students.Add(student);
                 db.SaveChanges();
-            }
-
+                
+                return new ResponseModel();
+            }            
         }
 
-        public void Delete(int id)
+        public ResponseModel Delete(int id)
         {
             using (SchoolManagementDBEntities db = new SchoolManagementDBEntities())
             {
@@ -31,15 +32,36 @@ namespace SchoolManagement.Manager
                     db.Students.Remove(std);
                     db.SaveChanges();
                 }
+                return new ResponseModel();
             }
+            
         }
 
 
-        public List<Student> GetStudents()
+        public ResponseModel GetStudents()
         {
             using (SchoolManagementDBEntities db = new SchoolManagementDBEntities())
             {
-                return db.Students.ToList();
+                List<Student> students = db.Students.ToList();
+                
+                return new ResponseModel()
+                {
+                    Data = students
+                };
+            }
+            
+        }
+
+        public ResponseModel GetStudentById(int id)
+        {
+            using (SchoolManagementDBEntities db = new SchoolManagementDBEntities())
+            {
+                Student student = db.Students.Find(id);
+                
+                return new ResponseModel()
+                {
+                    Data = student
+                };
             }
         }
     }

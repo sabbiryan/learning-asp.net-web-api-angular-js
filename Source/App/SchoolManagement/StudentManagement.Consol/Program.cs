@@ -29,7 +29,7 @@ namespace StudentManagement.Consol
             //}
 
             studentManager.Delete(3);
-            Console.WriteLine(studentManager.GetStudents().Count());
+            Console.WriteLine(studentManager.GetStudents().Data);
         } 
     }
 }

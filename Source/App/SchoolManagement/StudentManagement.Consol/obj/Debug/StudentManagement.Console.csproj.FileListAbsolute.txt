@@ -26,3 +26,17 @@ D:\CSE\Repository\DotNet\Youtube~Foyzul\KickStartAngularjsWithWebAPI\SchoolManag
 D:\CSE\Repository\DotNet\Youtube~Foyzul\KickStartAngularjsWithWebAPI\SchoolManagement\Source\App\SchoolManagement\StudentManagement.Consol\obj\Debug\StudentManagement.Console.csprojResolveAssemblyReference.cache
 D:\CSE\Repository\DotNet\Youtube~Foyzul\KickStartAngularjsWithWebAPI\SchoolManagement\Source\App\SchoolManagement\StudentManagement.Consol\obj\Debug\StudentManagement.Consol.exe
 D:\CSE\Repository\DotNet\Youtube~Foyzul\KickStartAngularjsWithWebAPI\SchoolManagement\Source\App\SchoolManagement\StudentManagement.Consol\obj\Debug\StudentManagement.Consol.pdb
+D:\CSE\Repository\DotNet\~GitHub\Basic-CRUD-with-WebAPI-and-Angular\Source\App\SchoolManagement\StudentManagement.Consol\bin\Debug\StudentManagement.Consol.exe.config
+D:\CSE\Repository\DotNet\~GitHub\Basic-CRUD-with-WebAPI-and-Angular\Source\App\SchoolManagement\StudentManagement.Consol\bin\Debug\StudentManagement.Consol.exe
+D:\CSE\Repository\DotNet\~GitHub\Basic-CRUD-with-WebAPI-and-Angular\Source\App\SchoolManagement\StudentManagement.Consol\bin\Debug\StudentManagement.Consol.pdb
+D:\CSE\Repository\DotNet\~GitHub\Basic-CRUD-with-WebAPI-and-Angular\Source\App\SchoolManagement\StudentManagement.Consol\bin\Debug\EntityFramework.dll
+D:\CSE\Repository\DotNet\~GitHub\Basic-CRUD-with-WebAPI-and-Angular\Source\App\SchoolManagement\StudentManagement.Consol\bin\Debug\EntityFramework.SqlServer.dll
+D:\CSE\Repository\DotNet\~GitHub\Basic-CRUD-with-WebAPI-and-Angular\Source\App\SchoolManagement\StudentManagement.Consol\bin\Debug\SchoolManagement.Manager.dll
+D:\CSE\Repository\DotNet\~GitHub\Basic-CRUD-with-WebAPI-and-Angular\Source\App\SchoolManagement\StudentManagement.Consol\bin\Debug\SchoolManagement.Model.dll
+D:\CSE\Repository\DotNet\~GitHub\Basic-CRUD-with-WebAPI-and-Angular\Source\App\SchoolManagement\StudentManagement.Consol\bin\Debug\SchoolManagement.Manager.pdb
+D:\CSE\Repository\DotNet\~GitHub\Basic-CRUD-with-WebAPI-and-Angular\Source\App\SchoolManagement\StudentManagement.Consol\bin\Debug\SchoolManagement.Model.pdb
+D:\CSE\Repository\DotNet\~GitHub\Basic-CRUD-with-WebAPI-and-Angular\Source\App\SchoolManagement\StudentManagement.Consol\bin\Debug\EntityFramework.xml
+D:\CSE\Repository\DotNet\~GitHub\Basic-CRUD-with-WebAPI-and-Angular\Source\App\SchoolManagement\StudentManagement.Consol\bin\Debug\EntityFramework.SqlServer.xml
+D:\CSE\Repository\DotNet\~GitHub\Basic-CRUD-with-WebAPI-and-Angular\Source\App\SchoolManagement\StudentManagement.Consol\obj\Debug\StudentManagement.Console.csprojResolveAssemblyReference.cache
+D:\CSE\Repository\DotNet\~GitHub\Basic-CRUD-with-WebAPI-and-Angular\Source\App\SchoolManagement\StudentManagement.Consol\obj\Debug\StudentManagement.Consol.exe
+D:\CSE\Repository\DotNet\~GitHub\Basic-CRUD-with-WebAPI-and-Angular\Source\App\SchoolManagement\StudentManagement.Consol\obj\Debug\StudentManagement.Consol.pdb

@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolManagement.Model", "S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolManagement.Manager", "SchoolManagement.Manager\SchoolManagement.Manager.csproj", "{B7C1580B-C50B-4601-97E3-F0E7F22C8A36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentManagement.Console", "StudentManagement.Consol\StudentManagement.Console.csproj", "{CF06B2A5-7E8E-49DE-B846-9A2C7A6BAC06}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolManagement.RestServices", "SchoolManagement.RestServices\SchoolManagement.RestServices.csproj", "{787A9B01-2C1A-404E-9A13-4427DCD3B635}"
 	ProjectSection(ProjectDependencies) = postProject
 		{D4D56D3E-83D5-4C26-B9E1-99E3A03764C2} = {D4D56D3E-83D5-4C26-B9E1-99E3A03764C2}
@@ -30,10 +28,6 @@ Global
 		{B7C1580B-C50B-4601-97E3-F0E7F22C8A36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7C1580B-C50B-4601-97E3-F0E7F22C8A36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7C1580B-C50B-4601-97E3-F0E7F22C8A36}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CF06B2A5-7E8E-49DE-B846-9A2C7A6BAC06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CF06B2A5-7E8E-49DE-B846-9A2C7A6BAC06}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CF06B2A5-7E8E-49DE-B846-9A2C7A6BAC06}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CF06B2A5-7E8E-49DE-B846-9A2C7A6BAC06}.Release|Any CPU.Build.0 = Release|Any CPU
 		{787A9B01-2C1A-404E-9A13-4427DCD3B635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{787A9B01-2C1A-404E-9A13-4427DCD3B635}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{787A9B01-2C1A-404E-9A13-4427DCD3B635}.Release|Any CPU.ActiveCfg = Release|Any CPU

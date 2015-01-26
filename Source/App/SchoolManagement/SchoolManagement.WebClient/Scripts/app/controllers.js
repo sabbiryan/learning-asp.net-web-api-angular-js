@@ -1,7 +1,7 @@
 'use strict';
 
-angular.module('myApp.factories', []).factory('Student', ['$resource', function ($resource) {
-    var resource = $resource('http://localhost:49557//api//Student', {}, { get: { method: 'GET', isArray: true } });
+app.factory('Student', ['$resource', function ($resource) {
+    var resource = $resource('http://localhost:49557//api//Student');
     return resource;
 }
 ]);
@@ -9,42 +9,36 @@ angular.module('myApp.factories', []).factory('Student', ['$resource', function 
 
 /*controller*/
 
-angular.module('myApp.controllers', [])
 
-    //.controller('MyCtrl1', ['$scope', function ($scope) {
-    //    $scope.name = "Tiger";
-    //    $scope.students = [];
-    //    $scope.students.push({ Id: 1, name: "Tiger", Address: "Amazon" });
-    //    $scope.students.push({ Id: 2, name: "Lion", Address: "Sundarbon" });
-    //    $scope.students.push({ Id: 3, name: "Fox", Address: "Forest" });
-    //    $scope.students.push({ Id: 4, name: "Pithon", Address: "Amazon" });
-    //  }])
-    .controller('MyCtrl1', [
-        '$scope', 'Student', function($scope, student) {
+app.controller('HomeCtrl', [
+        '$scope', 'Student', function($scope, Student) {
             $scope.Title = "Home";
             $scope.Heading = "Student List";
             $scope.students = [];
 
-            student.get(function(response) {
-                //console.log(response);
-                $scope.students = response;
+            Student.get(function(response) {
+                console.log(response);
+                $scope.students = response.Data;
             });
 
         }
     ])
-    .controller('MyCtrl2', [
-        '$scope', 'Student', function($scope, student) {
+    .controller('CreateCtrl', [
+        '$scope', 'Student','$location',
+        function ($scope, Student, $location) {
+
             $scope.Title = "Create Student";
-            $scope.Heading = "Create New Student";
+            $scope.Heading = "Create";
 
             $scope.save = function() {
-                student.save({ Name: $scope.Name, Phone: $scope.Phone, Address: $scope.Address }, function(response) {
+                Student.save({ Name: $scope.Name, Phone: $scope.Phone, Address: $scope.Address }, function(response) {
                     //console.log(response);
                     if (response) {
                         $scope.Notification = "Student is saved";
                         $scope.Name = "";
                         $scope.Phone = "";
                         $scope.Address = "";
+                        $location.path('/home');
                     } else {
                         $scope.Notification = "Student is not saved";
                     }
@@ -52,27 +46,75 @@ angular.module('myApp.controllers', [])
 
             };
         }
-    //])
-    //.controller('MyCtrl2', [
-    //    '$scope', 'Student', function($scope, student) {
-    //        $scope.Title = "Create Student";
-    //        $scope.Heading = "Create New Student";
+    ])
+    //.controller('MyCtrl3', ['$scope', '$http', '$routeParams', function(scope, http, routeParams) {
+    //    var userId = routeParams.userId;
+    //    console.log(userId);
 
-    //        $scope.save = function() {
-    //            student.save({ Name: $scope.Name, Phone: $scope.Phone, Address: $scope.Address }, function(response) {
-    //                //console.log(response);
-    //                if (response) {
-    //                    $scope.Notification = "Student is saved";
-    //                    $scope.Name = "";
-    //                    $scope.Phone = "";
-    //                    $scope.Address = "";
-    //                } else {
-    //                    $scope.Notification = "Student is not saved";
-    //                }
-    //            });
+    //}])
+    .controller('EditCtrl', [
+        '$scope', 'Student', '$routeParams','$location',
+        function ($scope, Student, $routeParams, $location) {
+            var requestId = $routeParams.id;
 
-    //        };
+            $scope.Title = "Edit Student";
+            $scope.Heading = "Edit";
 
-    //    }
+            Student.get({ request: JSON.stringify(requestId) }, function(response) {
+                console.log(response);
+                $scope.student = response.Data;
+            });
+
+            $scope.save = function () {
+                Student.save($scope.student, function (response) {
+                    //console.log(response);
+                    if (response) {
+                        $scope.student = {};
+                        $location.path('/home');
+                    } else {
+                        $scope.message = "Failed! Try Again!";
+                    }
+                });
+
+            };
+
+        }
+    ])
+    .controller('DetailsCtrl', [
+        '$scope', 'Student','$routeParams',
+        function ($scope, Student, $routeParams) {
+            var requestId = $routeParams.id;
+
+            $scope.Title = "Details Student";
+            $scope.Heading = "Details";
+
+            Student.get({ request: JSON.stringify(requestId) }, function (response) {
+                console.log(response);
+                $scope.student = response.Data;
+            });
+
+        }
+    ])
+    .controller('DeleteCtrl', [
+        '$scope', 'Student','$routeParams','$location',
+        function ($scope, Student, $routeParams, $location) {
+            var requestId = $routeParams.id;
+
+            $scope.Title = "Delete Student";
+            $scope.Heading = "Delete";
+
+            Student.get({ request: JSON.stringify(requestId) }, function (response) {
+                console.log(response);
+                $scope.student = response.Data;
+            });
+
+            $scope.delete = function() {
+                Student.remove({ request: JSON.stringify(requestId) }, function (response) {
+                    console.log(response);
+                    if (response.IsSuccess)
+                        $location.path('/home');
+                });
+            }
+        }
     ]);
 
