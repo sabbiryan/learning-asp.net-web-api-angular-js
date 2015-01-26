@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html ng-app='myApp'>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{{Title}}</title>
+      
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/bootstrap-theme.css" rel="stylesheet" />
+    <link href="Content/Site.css" rel="stylesheet" />
+    
+    <script src="Scripts/vendor/modernizr-2.6.2.js"></script>
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#home">Home</a></li>                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+                        
+
+        <div ng-view></div>
+                
+
+        <hr />
+        <footer>
+            <p>&copy; Basic CRUD Application with ASP.NET Web API and AngularJS</p>
+        </footer>
+    </div>
+
+    <script src="Scripts/vendor/jquery/jquery-2.1.3.min.js"></script>
+    <!--<script src="Scripts/vendor/bootatrap/jquery-1.9.0.min.js"></script>-->
+    <script src="Scripts/vendor/bootatrap/bootstrap.min.js"></script>
+    
+    
+    <script src="Scripts/vendor/angular/angular.min.js"></script>
+    <script src="Scripts/vendor/angular/angular-route.min.js"></script>
+    <script src="Scripts/vendor/angular/angular-resource.min.js"></script>
+
+    <script src="Scripts/app/app.js"></script>
+    <script src="Scripts/app/controllers.js"></script>
+    <script src="Scripts/app/directives.js"></script>
+    <script src="Scripts/app/filters.js"></script>
+    <script src="Scripts/app/services.js"></script>
+    
+
+
+</body>
+</html>

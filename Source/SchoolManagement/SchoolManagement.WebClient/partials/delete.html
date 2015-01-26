@@ -1,0 +1,34 @@
+﻿<h2>{{Heading}}</h2>
+
+<div>
+    <h4>Student</h4>
+    <hr />
+    <dl class="dl-horizontal ">
+        <dt>
+            Id
+        </dt>
+        <dd>
+            {{student.Id}}
+        </dd>
+
+        <dt>
+            Name
+        </dt>
+        <dd>
+            {{student.Name}}
+        </dd>
+    
+        <dt>Phone</dt>
+        <dd>{{student.Phone}}</dd>
+        
+        <dt>Address</dt>
+        <dd>{{student.Address}}</dd>
+    </dl>
+    <div>
+        <label class="control-label">Do you want to delete this student?</label>
+        <button class="btn btn-info" ng-click="delete()">Yes</button>
+        <a ng-href="#home"><button class="btn btn-info" value="no" >No</button></a>
+    </div>
+</div>
+
+<a href="#home">Back</a>
